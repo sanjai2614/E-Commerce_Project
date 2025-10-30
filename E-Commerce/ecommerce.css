@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow-x:hidden; */
+
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 30px; */
+
+
+
+
+}
+
+.nav1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 6px;
+
+}
+
+.titlepage {
+
+    background-image: url('https://static.wixstatic.com/media/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png/v1/fill/w_1336,h_565,al_br,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    height: 500px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* font-size: 30px; */
+
+}
+
+.para {
+    color: black;
+    width: 30%;
+}
+
+.price {
+    background-color: rgb(223, 13, 13);
+    color: white;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+
+
+
+}
+
+.titleh1 {
+   color: black;
+    width: 30%;
+
+}
+
+.but1 {
+    font-size: 20px;
+    background-color: blueviolet;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+
+}
+
+.but1:hover {
+    background-color: white;
+    color: blueviolet;
+    /* border: blueviolet 1px solid; */
+}
+
+
+.discount {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+
+
+
+
+
+
+}
+
+
+.redd {
+    width: 50%;
+    height: 500px;
+    background-image: url(https://static.wixstatic.com/media/c22c23_e140bfa8cd6f4cb2ac5ee6e204f64073~mv2.jpg/v1/fill/w_608,h_468,al_t,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c22c23_e140bfa8cd6f4cb2ac5ee6e204f64073~mv2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.violetd {
+    width: 50%;
+    height: 500px;
+    background-image: url(https://static.wixstatic.com/media/c837a6_d84a631864a442a496670bc2d787c6a0~mv2.jpg/v1/fill/w_608,h_468,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_d84a631864a442a496670bc2d787c6a0~mv2.jpg);
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+    justify-content: center;
+
+}
+
+
+.but2 {
+    font-size: 20px;
+    background-color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+
+
+.tools {
+
+    width: 100%;
+}
+
+
+
+.singlec {
+    justify-content: space-evenly;
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+
+svg {
+    width: 42px;
+    height: 56px;
+}
+
+.s1,
+.s2,
+.s4,
+.s3 {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bestsellers {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+    /* height: 500px; */
+    padding: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.bestoverlay {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.best1 {
+    width: 242px;
+    border: 1px solid black;
+    font-size: 17px;
+}
+
+.caption1 {
+    padding: 16px 20px 20px;
+    
+
+}
+
+.bestimg {
+    width: 242px;
+    height: 242px;
+    
+
+}
+
+.but3 {
+    align-self: center;
+
+    background-color: blueviolet;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.parabvoilet{
+    color: blueviolet;
+}
+
+.shop {
+    width: 90%;
+    align-self: center;
+    background-color: white;
+    color: black;
+    height: 500px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+.bestprice {
+    width: 90%;
+    background-image: url(https://static.wixstatic.com/media/c837a6_42dd66a436e846648736f4bc9546bf14~mv2.png/v1/fill/w_980,h_600,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_42dd66a436e846648736f4bc9546bf14~mv2.png);
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    /* color: black; */
+
+
+
+
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+
+
+
+}
+
+.bestprice1 {
+
+    height: 500px;
+}
+
+
+.bestprice2 {
+    align-self: flex-end;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+    width: 40%;
+    height: 500px;
+    color: black;
+}
+
+.centerprice {
+
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    rotate: 30deg;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.but4 {
+    background-color: blueviolet;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.todayspecial{
+    background-image: url(https://static.wixstatic.com/media/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png/v1/fill/w_1256,h_600,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 95%;
+    align-self: center;
+    
+    
+}    
+
+.innertoday{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 80px;
+    justify-content: center;
+    background: white;
+    color: black;
+    width: 40%;
+    height: 100%;
+}
+
+.but5{
+    background-color: blueviolet;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.brands{
+    background-color: white;
+    color: black;
+    width: 95%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 0px 30px ;
+}
+.per30{
+    color: blueviolet;
+}
+
+.news{
+    width: 95%;
+    align-self: center;
+    height: 250px;
+    background-color: rgba(140, 0, 255, 0.849);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px;
+    
+}
+input{
+    background-color:rgba(140, 0, 255, 0.849);
+    border: white 1px solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    gap: 20px;
+}
+
+.checkbox{
+    background-color: rgba(140, 0, 255, 0.849) ;
+    width: 30px;
+    height: 20px;
+}
+
+.subscribe{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+.help{
+    background-image: url(https://static.wixstatic.com/media/c22c23_de5cbbefa9104fc1a1604ea146ea523a~mv2.jpg/v1/fill/w_735,h_445,al_t,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c22c23_de5cbbefa9104fc1a1604ea146ea523a~mv2.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+   
+
+    
+}
+
+.helpbox{
+    padding: 0px 30px 0px;
+    background-color: black;
+    width: 48%;
+    height: 350px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.buthelp{
+    width: 200px;
+    height: 40px;
+    color: blueviolet;
+    border-radius: 20px;
+}
+.footer{
+    background-color: white;
+    color: black;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
+    font-size: 25px;
+    
+
+}
+
+ul{
+    list-style: none;
+}
+
+.footimg{
+    width: 25px;
+    height: 25px;
+}
+.payment{
+    text-align: center;
+    padding: 30px 0px 30px;
+    background-color: white;
+    color: black;
+    height: 160px;
+}
+
+
+.methods{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    
+}
+
+
+.methods img{
+    width: 55px;
+    height: 34px;
+}
+
+.last{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(190, 188, 188);
+    padding-top: 12px;
+}
