@@ -54,7 +54,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     /* font-size: 30px; */
 
 }
@@ -76,7 +76,7 @@ header {
 }
 
 .titleh1 {
-   color: black;
+    color: black;
     width: 30%;
 
 }
@@ -215,14 +215,14 @@ svg {
 
 .caption1 {
     padding: 16px 20px 20px;
-    
+
 
 }
 
 .bestimg {
     width: 242px;
     height: 242px;
-    
+
 
 }
 
@@ -239,7 +239,7 @@ svg {
 
 
 
-.parabvoilet{
+.parabvoilet {
     color: blueviolet;
 }
 
@@ -248,16 +248,27 @@ svg {
     align-self: center;
     background-color: white;
     color: black;
-    height: 500px;
+    height: 600px;
     text-align: center;
     padding: 30px;
+
+
 }
 
+.shopimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 30px;
+    justify-self: center;
 
 
+}
 
 .bestprice {
-    width: 90%;
+    width: 95%;
     background-image: url(https://static.wixstatic.com/media/c837a6_42dd66a436e846648736f4bc9546bf14~mv2.png/v1/fill/w_980,h_600,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_42dd66a436e846648736f4bc9546bf14~mv2.png);
     align-self: center;
     background-repeat: no-repeat;
@@ -288,7 +299,7 @@ svg {
 
 .bestprice2 {
     align-self: flex-end;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -327,18 +338,18 @@ svg {
     color: white;
 }
 
-.todayspecial{
+.todayspecial {
     background-image: url(https://static.wixstatic.com/media/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png/v1/fill/w_1256,h_600,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     width: 95%;
     align-self: center;
-    
-    
-}    
 
-.innertoday{
+
+}
+
+.innertoday {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -350,7 +361,7 @@ svg {
     height: 100%;
 }
 
-.but5{
+.but5 {
     background-color: blueviolet;
     width: 150px;
     border: none;
@@ -359,7 +370,7 @@ svg {
     color: white;
 }
 
-.brands{
+.brands {
     background-color: white;
     color: black;
     width: 95%;
@@ -368,13 +379,14 @@ svg {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding: 30px 0px 30px ;
+    padding: 30px 0px 30px;
 }
-.per30{
+
+.per30 {
     color: blueviolet;
 }
 
-.news{
+.news {
     width: 95%;
     align-self: center;
     height: 250px;
@@ -384,10 +396,11 @@ svg {
     align-items: center;
     padding-top: 50px;
     gap: 30px;
-    
+
 }
-input{
-    background-color:rgba(140, 0, 255, 0.849);
+
+input {
+    background-color: rgba(140, 0, 255, 0.849);
     border: white 1px solid;
     border-radius: 20px;
     width: 400px;
@@ -395,47 +408,50 @@ input{
     gap: 20px;
 }
 
-.checkbox{
-    background-color: rgba(140, 0, 255, 0.849) ;
+.checkbox {
+    background-color: rgba(140, 0, 255, 0.849);
     width: 30px;
     height: 20px;
 }
 
-.subscribe{
+.subscribe {
     background-color: black;
     color: white;
     width: 100px;
     height: 30px;
     border-radius: 20px;
 }
-.help{
+
+.help {
     background-image: url(https://static.wixstatic.com/media/c22c23_de5cbbefa9104fc1a1604ea146ea523a~mv2.jpg/v1/fill/w_735,h_445,al_t,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c22c23_de5cbbefa9104fc1a1604ea146ea523a~mv2.jpg);
     height: 300px;
     background-repeat: no-repeat;
     background-position: right;
-    
-   
 
-    
+
+
+
 }
 
-.helpbox{
+.helpbox {
     padding: 0px 30px 0px;
     background-color: black;
     width: 48%;
     height: 350px;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
-.buthelp{
+
+.buthelp {
     width: 200px;
     height: 40px;
     color: blueviolet;
     border-radius: 20px;
 }
-.footer{
+
+.footer {
     background-color: white;
     color: black;
     height: 300px;
@@ -445,19 +461,20 @@ input{
     gap: 40px;
     justify-content: space-evenly;
     font-size: 25px;
-    
+
 
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.footimg{
+.footimg {
     width: 25px;
     height: 25px;
 }
-.payment{
+
+.payment {
     text-align: center;
     padding: 30px 0px 30px;
     background-color: white;
@@ -466,22 +483,22 @@ ul{
 }
 
 
-.methods{
+.methods {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
-    
+
 }
 
 
-.methods img{
+.methods img {
     width: 55px;
     height: 34px;
 }
 
-.last{
+.last {
     width: 100%;
     height: 40px;
     background-color: rgb(190, 188, 188);
