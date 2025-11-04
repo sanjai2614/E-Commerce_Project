@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+header {
+    padding: 20px;
+}
+
+.head {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/26193-min.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 122px 0px 0px;
+    width: 50%;
+    align-self: center;
+}
+
+.head p,
+a {
+    color: white;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    align-self: center;
+}
+
+.container1 svg {
+
+    width: 59px;
+    height: 59px;
+}
+
+
+.inverter,
+.complete,
+.expert,
+.updates {
+    width: 211px;
+    height: auto;
+    background-color: #c4b35c;
+    padding: 50px 30px 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container1 h4 {
+    padding: 20px 0px 0px;
+}
+
+.head button {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    align-self: center;
+    margin: 30px 30px 50px;
+}
+
+.power {
+    padding: 30px;
+}
+
+.power>h1 {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.powerboxs1,
+.powerboxs2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.solarbox {
+    width: 40%;
+    height: 250px;
+    background-color: #c4b35c;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.commercialbox {
+    width: 40%;
+    height: 250px;
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/235.jpg");
+    background-size: cover;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.designbox {
+    width: 40%;
+    height: 250px;
+    background-color: black;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inspectionbox {
+    width: 40%;
+    height: 250px;
+    background-color: #c4b35c;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.power button {
+    padding: 10px 20px 10px;
+    border-radius: 40px;
+    border: 1px solid white;
+    color: white;
+    width: 200px;
+    background: none;
+
+}
+
+.power p {
+    font-size: 20px;
+}
+
+.power h1 {
+    font-size: 36px;
+}
+
+.wideimg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("	https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/32423.jpg");
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.widebutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wideimg h1 {
+    width: 75%;
+    font-size: 60px;
+    align-self: center;
+    text-align: center;
+}
+
+.widebutton1 {
+    color: white;
+    background: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.widebutton2 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.wideimg p {
+    align-self: center;
+}
+
+.widenext {
+    height: auto;
+    background-color: black;
+}
+
+.widenexttext {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.widenexttext h1 {
+    font-size: 60px;
+    display: flex;
+    align-self: center;
+}
+
+.widenexttext p {
+    font-size: 20px;
+    width: 80%;
+    display: flex;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.widelast {
+    display: flex;
+    justify-content: center;
+}
+
+.blackimg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    align-self: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-content: space-evenly;
+}
+
+.blackimg h1 {
+
+    font-size: 24px;
+}
+
+.blackimg p {
+    font-size: 16px;
+}
+
+.first {
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/443.jpg");
+    width: 30%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.second {
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/45435.jpg");
+    width: 30%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.third {
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/656.jpg");
+    width: 30%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fourth {
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/32423.jpg");
+    width: 30%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fifth {
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/3d-house-with-solar-pannels.jpg");
+    width: 30%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sixth {
+    background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/5453.jpg");
+    width: 30%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.shadow{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.shadow img{
+
+    width: 650px;
+    height:450px;
+    
+}
