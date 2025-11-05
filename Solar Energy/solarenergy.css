@@ -11,6 +11,12 @@
 
 header {
     padding: 20px;
+    /* position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: #c4b35c; */
 }
 
 .head {
@@ -32,8 +38,7 @@ header {
     align-self: center;
 }
 
-.head p,
-a {
+.head a {
     color: white;
     text-align: center;
 }
@@ -117,7 +122,7 @@ a {
 .commercialbox {
     width: 40%;
     height: 250px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/235.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/235.jpg");
     background-size: cover;
     padding: 20px;
     gap: 20px;
@@ -240,10 +245,7 @@ a {
     padding-bottom: 20px;
 }
 
-.widelast {
-    display: flex;
-    justify-content: center;
-}
+
 
 .blackimg {
     display: flex;
@@ -266,7 +268,7 @@ a {
 }
 
 .first {
-    background-image:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/443.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/443.jpg");
     width: 30%;
     height: 450px;
     background-position: center;
@@ -276,11 +278,13 @@ a {
     justify-content: end;
     padding: 20px;
     box-sizing: border-box;
+    gap: 10px;
+    text-decoration-line: overline ;
 
 }
 
 .second {
-    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/45435.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/45435.jpg");
     width: 30%;
     height: 450px;
     background-position: center;
@@ -290,10 +294,11 @@ a {
     justify-content: end;
     padding: 20px;
     box-sizing: border-box;
+    gap: 10px;
 }
 
 .third {
-    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/656.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/656.jpg");
     width: 30%;
     height: 450px;
     background-position: center;
@@ -303,10 +308,12 @@ a {
     justify-content: end;
     padding: 20px;
     box-sizing: border-box;
+    gap: 10px;
+
 }
 
 .fourth {
-    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/32423.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/32423.jpg");
     width: 30%;
     height: 450px;
     background-position: center;
@@ -316,10 +323,12 @@ a {
     justify-content: end;
     padding: 20px;
     box-sizing: border-box;
+    gap: 10px;
+
 }
 
 .fifth {
-    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/3d-house-with-solar-pannels.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/3d-house-with-solar-pannels.jpg");
     width: 30%;
     height: 450px;
     background-position: center;
@@ -329,10 +338,12 @@ a {
     justify-content: end;
     padding: 20px;
     box-sizing: border-box;
+    gap: 10px;
+
 }
 
 .sixth {
-    background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/5453.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/2298516/images/5453.jpg");
     width: 30%;
     height: 450px;
     background-position: center;
@@ -342,19 +353,150 @@ a {
     justify-content: end;
     padding: 20px;
     box-sizing: border-box;
+    gap: 10px;
+
 }
-.shadow{
+
+.shadow {
     background-color: black;
     width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: center;
-   
+    position: relative;
+    top: 0px;
+}
+
+.shadow .shield {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 600px;
+    height: 400px;
+    background-color: #c4b35c;
+    z-index: 3;
+}
+
+.shadow img {
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    top: 0%;
+    z-index: 4;
+}
+.learnmore{
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 250px;
+    z-index: 5;
+    top: 280px;
+    right: 200px ;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 0px 20px black;
     
 }
-.shadow img{
+.learnmore h1{
+    font-size: 26px;
+}
+.learnmore button{
+    width: fit-content;
+    padding: 10px;
+    background-color: #c4b35c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.blank{
+height: 400px;
+}
+.solarbenefits{
+    height: 300px;
 
-    width: 650px;
-    height:450px;
+
+}
+.solarbenefits div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     
+
+}
+.solarbenefits h1{
+    text-align: center;
+}
+.solarbenefits li{
+    list-style: none;
+}
+.ourproject{
+    position: relative;
+    text-align: center;
+
+}
+.backshield{
+    /* position: absolute; */
+    background-color: #c4b35c;
+    width: 75%;
+    height: 700px;
+    top: 90px;
+    
+}
+.ourproject button{
+    padding: 10px 20px;
+    font-size: larger;
+    border: #c4b35c 1px solid;
+    border-radius: 20px;
+    
+}
+.lastone{
+    display: flex;
+    flex-direction:row ;
+    gap: 60px;
+    margin: 80px;
+    
+
+}
+.lastone img{
+    width: 500px;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lastone h1{
+    font-size: 60px;
+    text-align: center;
+    
+}
+input{
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+textarea{
+    height: 100px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.checkbox{
+    width: 20px;
+    display: inline;
+}
+.footer{
+    background-color: #333333;
+    color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
