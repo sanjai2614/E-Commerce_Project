@@ -4,19 +4,21 @@
     font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     font-style: normal;
-
-
-
+   overflow: visible red;
 }
 
 header {
-    padding: 20px;
-    /* position: fixed;
-    z-index: 100;
-    width: 100%;
+    margin: 20px;
+    width: auto;
     height: auto;
-    background-color: white;
-    color: #c4b35c; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+header .im2{
+    width:34px;
+    height:21px;
 }
 
 .head {
@@ -279,7 +281,6 @@ header {
     padding: 20px;
     box-sizing: border-box;
     gap: 10px;
-    text-decoration-line: overline ;
 
 }
 
@@ -398,7 +399,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    box-shadow: 1px 0px 20px black;
     
 }
 .learnmore h1{
@@ -417,53 +417,86 @@ height: 400px;
 }
 .solarbenefits{
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
 
 }
-.solarbenefits div{
+.solarpoints{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
-
 }
+
 .solarbenefits h1{
     text-align: center;
 }
 .solarbenefits li{
+    text-align: start;
     list-style: none;
 }
 .ourproject{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 1600px;
     position: relative;
     text-align: center;
 
+
+
+}
+.ourprojectimg{
+    position: absolute;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+    width: 80%;
+    top: 150px;
+    left: 15%;
+    align-self: center;
+    z-index: 1;
+}
+.ourprojectimg img{
+    width: 300px;
+    height: 400px;
 }
 .backshield{
-    /* position: absolute; */
+    position: absolute;
+    z-index: 0;
     background-color: #c4b35c;
-    width: 75%;
-    height: 700px;
-    top: 90px;
+    width: 80%;
+    height: 850px;
+    top: 300px;
+    left: 11%;
     
 }
 .ourproject button{
-    padding: 10px 20px;
+    position: absolute;
+    top: 105%;
+    left: 40%;
+    padding: 10px 30px;
     font-size: larger;
     border: #c4b35c 1px solid;
     border-radius: 20px;
+
+   
     
 }
 .lastone{
     display: flex;
     flex-direction:row ;
-    gap: 60px;
+    gap: 50px;
     margin: 80px;
     
 
 }
 .lastone img{
-    width: 500px;
-    height: auto;
+    width: 470px;
+    height: 600px;
 }
 form{
     display: flex;
@@ -488,7 +521,7 @@ textarea{
 }
 .checkbox{
     width: 20px;
-    display: inline;
+    height: 12px;
 }
 .footer{
     background-color: #333333;
@@ -499,4 +532,14 @@ textarea{
     justify-content: center;
     align-items: center;
 
+}
+.formbutton{
+    padding: 10px 30px;
+    border-radius: 20px;
+    height: fit-content;
+    background-color:#ad9621;
+    color: white;
+    font-size: large;
+    align-self: center;
+    border-bottom: none;
 }
